@@ -1,16 +1,3 @@
-﻿/*
- * *****
- * WRITTEN BY FLORIAN RAPPL, 2012.
- * florian-rappl.de
- * mail@florian-rappl.de
- * *****
- */
-
-/*
- * -------------------------------------------
- * BASE CLASS
- * -------------------------------------------
- */
 var Base = Class.extend({
 	init: function(x, y) {
 		this.setPosition(x || 0, y || 0);
